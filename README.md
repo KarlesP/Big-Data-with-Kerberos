@@ -1,6 +1,6 @@
-#Big Data Audit
+# Big Data Audit
 
-##Usage
+## Usage
 The entrance file of the program is main.py
 
 You can use the following command to see the usage
@@ -20,7 +20,7 @@ optional arguments:
 ```
 There is mainly 2 functions which are Hadoop and Spark vuln check
 
-##Hadoop
+## Hadoop
 
 You could still use `-h` to see the usage
 ```
@@ -97,7 +97,7 @@ $ python main.py hadoop ./hadoop
 [Warning]: Suggest to enable acl for user! Set: dfs.namenode.acls.enabled=true
 ```
 
-##Spark
+## Spark
 It's much as same as Hadoop，you need point to the setting folder，but difference is that Spark's defalt setting file has only one `spark-defaults.conf`,DO NOT copy to other folder。
 
 As the same as Hadoop checking , it provides a setting that can be configured. It's in the root directory of Spark and named `security.ini`.
