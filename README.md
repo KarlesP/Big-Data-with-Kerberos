@@ -1,4 +1,4 @@
-# Big Data Audit
+# Hadoop vulnerability detection with Kerberos
 
 ## Usage
 The entrance file of the program is main.py
